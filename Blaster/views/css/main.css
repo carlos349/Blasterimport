@@ -1,0 +1,208 @@
+body{
+	padding: 15px;
+	background-image: url("../images/Alfabetico.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cardos{
+	background-color: rgba(47, 72, 88,0.6);;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 70vh;
+	cursor:pointer;
+	margin-top: 80px;
+	border-radius: 0px 0px 10px 10px;
+}
+.caratula{
+	width: 100%;
+	height: 50vh;
+	border-radius: 0px 0px 10px 10px;
+	position: relative;
+}
+
+
+.listaPelis h3{
+	color: #F8F3F7;
+	margin-bottom: 0px;
+}
+.listaPelis p{
+	color: #F8F3F7;
+	margin-bottom: -110px;
+}
+.cardos p{
+	color: white;
+	margin: 5px;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.cardos button{
+	width: 100%;
+	border-radius: 0px 0px 10px 10px;
+	padding: 10px;
+	background-color: #0B2642;
+	border: none;
+	cursor: pointer;
+	margin-top: 20px;
+
+}
+.cardos button h4{
+	
+	color: #F8F3F7;
+}
+#video {
+      -webkit-box-shadow: 0 0 20px #000;
+      -moz-box-shadow: 0 0 20px #000;
+      width: 100%;
+      height: 700px;
+      overflow: none;
+      margin: 5% auto;
+}
+
+
+.tab {
+    float: left;
+    border: 2px solid #192D66;
+    background-color:  rgba(47, 72, 88,0.6);
+    width: 100%;
+    height: 65vh;
+    margin-top: 80px;
+    overflow-y:scroll;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color:  rgba(47, 72, 88,0.6);
+    color: #F8F3F7;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    border-bottom: 2px solid #0B2642;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #192D66;
+    color: #F8F3F7;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #192D66;
+    color: #F8F3F7;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+}
+.generos{
+
+	width: 100%;
+	float: right;
+	margin-top: -50px;
+}
+.generos h2{
+	color: #F8F3F7;
+	float: right;
+	padding: 0;
+
+}
+
+
+.generos button{
+	float: right;
+	width: 59%;
+	border:none;
+	border: 2px solid #0B2642;
+	margin-top: 10px;
+	padding: 12px;
+	border-radius: 0px 0px 10px 10px;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: left;
+ 	
+	background-color: rgba(47, 72, 88,0.8);
+	color: #F8F3F7;
+}
+.generos i{
+	margin-left: 10px;
+	float: right;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #192D66; 
+    border-radius: 0px 0px 10px 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #F8F3F7; 
+    border-radius: 0px 0px 10px 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.carrusel{
+	margin-top: -115px;
+	margin-bottom: -150px;
+}
+.carousel-item img{
+	height: 250px;
+}
+.botones{
+	margin-top: 10px;
+	width: 45%;
+	border:none;
+	border: 2px solid #0B2642;
+	margin-top: 10px;
+	padding: 15px;
+	border-radius: 0px 0px 10px 10px;
+	cursor: pointer;
+	font-size: 16px;
+	background-color: #0B2642;
+	color: #F8F3F7;
+}
+.icons i{
+	color: white;
+	font-size: 40px;
+}
+.icons p{
+	color: white;
+	font-size: 28px;
+
+}
+.icons span{
+	
+	font-size: 40px;
+	color: white;
+}
+.overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
