@@ -11,6 +11,7 @@ class EnlacesModels{
 			$enlaces == "signup" ||
 			$enlaces == "cerrarSesion" ||
 			$enlaces == "administracion" ||
+			$enlaces == "agregarPelicula" ||
 			$enlaces == "home"){
 
 			$module = "views/modules/".$enlaces.".php";
